@@ -1,0 +1,32 @@
+{
+  "name": "essen-js",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "url": "https://github.com/sirarifarid/essen-js"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "keywords": [
+    "jotai",
+    "atom resetter",
+    "jotai resetter",
+    "atom resetter"
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@types/react": "^18.3.3",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "jotai": "^2.8.3",
+    "react": "^18.3.1"
+  }
+}
