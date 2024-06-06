@@ -1,3 +1,8 @@
+/**
+ * Returns a hex code of the rgba color
+ * @param color
+ */
+
 export function rgba2hex(color: string) {
   let a: number | string,
     rgb: any = color

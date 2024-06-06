@@ -1,3 +1,9 @@
+/**
+ * Returns a new array with swapped elements
+ * @param array
+ * @param index1 index of 1st element
+ * @param index2 index of 2nd element
+ */
 export const swapArrayElements = <T>(
   array: T[],
   index1: number,

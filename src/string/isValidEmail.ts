@@ -1,3 +1,8 @@
+/**
+ * Extract all the number from the string
+ * @param email
+ * @param domains array of domains optional
+ */
 export function isValidEmail(email: string, domains?: string[]) {
   return domains
     ? new RegExp(

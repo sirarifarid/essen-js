@@ -1,5 +1,10 @@
-export function isValidCreditCard(num: string) {
-  const sanitizedNumber = num.replace(/\D/g, "");
+/**
+ * Validate a card number
+ * @param card card number
+ */
+
+export function isValidCreditCard(card: string) {
+  const sanitizedNumber = card.replace(/\D/g, "");
 
   if (!sanitizedNumber || isNaN(+sanitizedNumber)) {
     return false;

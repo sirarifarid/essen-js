@@ -1,3 +1,8 @@
+/**
+ * Extract all the number from the string
+ * @param pass
+ * @return {Object} An object containing the score (number) and strength (string).
+ */
 export function passwordStrength(pass: string) {
   const criteriaWeights = {
     length: 2,
