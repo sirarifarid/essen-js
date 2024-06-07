@@ -114,13 +114,13 @@ const is_valid = sortNumbers([1, 5, 2, 4, 3], "desc");
 `alpha`
 
 ```javascript
-const is_valid = alpha(color, opacity);
+const color = alpha(color, opacity);
 
-const is_valid = alpha("#f23", 0.5);
+const color = alpha("#f23", 0.5);
 ```
 
 `rgba2hex`
 
 ```javascript
-const is_valid = alpha("rgba(255,255,255,0.1)");
+const color = alpha("rgba(255,255,255,0.1)");
 ```
