@@ -1,6 +1,6 @@
 {
   "name": "essen-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -14,10 +14,12 @@
   "license": "MIT",
   "description": "",
   "keywords": [
-    "jotai",
-    "atom resetter",
-    "jotai resetter",
-    "atom resetter"
+    "js",
+    "js functions",
+    "is valid email",
+    "validations",
+    "lodash",
+    "javascript"
   ],
   "devDependencies": {
     "@types/lodash": "^4.17.4",
